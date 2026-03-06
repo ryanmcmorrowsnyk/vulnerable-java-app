@@ -1,0 +1,41 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Spring Boot
+spring-boot-starter-parent/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# NOTE: application.properties is normally ignored, but for this vulnerable app
+# we intentionally commit it to demonstrate exposed secrets
+# In real applications, NEVER commit secrets!
